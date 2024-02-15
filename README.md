@@ -12,3 +12,6 @@
 
 ## 플러그인 권한
 - storage.admin
+
+## 플러그인 영상
+- https://youtu.be/VOcYxY2GUlk
