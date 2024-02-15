@@ -1,0 +1,5 @@
+name: EQItemStorage
+main: day.lone.storage.plugin.EQItemStorage
+authors: [lone64]
+version: 1.0.0
+api-version: 1.17
