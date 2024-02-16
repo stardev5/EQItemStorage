@@ -18,4 +18,4 @@
 - storage.admin
 
 ## 플러그인 영상
-- https://youtu.be/VOcYxY2GUlk
+- [이동하기](https://youtu.be/VOcYxY2GUlk)
