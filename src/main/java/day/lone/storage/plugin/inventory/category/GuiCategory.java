@@ -141,7 +141,7 @@ public class GuiCategory extends CustomInventoryHolder {
     private ItemStack getEditCategory() {
         return ItemUtils.setType(Material.ANVIL)
                 .setDisplayName("&7카테고리 편집")
-                .setLore(List.of("&e클릭 시 카테고리를 편집합니다.")).getItemStack();
+                .setLore(List.of("", "&a[ 클릭 시 카테고리를 편집합니다. ]")).getItemStack();
     }
 
     private ItemStack getCategoryItem(ItemStack is) {
@@ -150,7 +150,7 @@ public class GuiCategory extends CustomInventoryHolder {
                         "&e[1개 지급] &f좌클릭",
                         "&c[64개 지급] &f쉬프트 + 좌클릭",
                         "",
-                        "&e클릭 시 해당 아이템을 지급 받습니다."
+                        "&a[ 클릭 시 해당 아이템을 지급 받습니다. ]"
                 )).getItemStack();
     }
 

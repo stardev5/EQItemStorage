@@ -190,7 +190,7 @@ public class GuiStorages extends CustomInventoryHolder {
     private ItemStack getAddCategory() {
         return ItemUtils.setType(Material.BEACON)
                 .setDisplayName("&7카테고리 추가")
-                .setLore(List.of("&e클릭 시 카테고리를 추가합니다.")).getItemStack();
+                .setLore(List.of("&a[ 클릭 시 카테고리를 추가합니다. ]")).getItemStack();
     }
 
     private ItemStack getCategory(String name) {
@@ -201,7 +201,7 @@ public class GuiStorages extends CustomInventoryHolder {
                         "&c[카테고리 삭제] &f쉬프트 + 좌클릭",
                         "&c[카테고리 편집] &f쉬프트 + 우클릭",
                         "",
-                        "&e클릭 시 해당 카테고리로 이동합니다."
+                        "&a[ 클릭 시 해당 카테고리로 이동합니다. ]"
                 )).getItemStack();
     }
 

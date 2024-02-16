@@ -18,7 +18,7 @@ jar {
 }
 
 group = "day.lone.storage.plugin"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenLocal()
@@ -32,7 +32,7 @@ dependencies {
     compileOnly "org.spigotmc:spigot-api:1.19-R0.1"
 
     implementation "co.aikar:acf-bukkit:0.5.1"
-    implementation "day.yone:yone-utils:0.3.2"
+    implementation "day.yone:yone-utils:0.3.4"
     implementation "day.yone:sign-utils:0.0.1-alpha"
     implementation "day.yone:packet-utils:0.0.1-alpha"
 }
